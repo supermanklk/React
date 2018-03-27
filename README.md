@@ -2,11 +2,17 @@
 新的项目搭建模板,基于webpack上的react初始化模板搭建.配合react-router
 
 使用说明:
+
 主要用到仓库内的: src/ index.html packag.json package-lock-json postcss.config.js webpack.config.js
+
 搭建环境: 
+
 $ node -v  v9.2.0
+
 $ npm -v   5.5.1
+
 重置npm为淘宝源: $ npm config set registry https://registry.npm.taobao.org 
+
 查看npm源 $ npm config get registry
 
 
