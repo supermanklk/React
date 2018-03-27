@@ -11,9 +11,13 @@ $ npm -v   5.5.1
 
 
 搭建说明:
+
 1.新建一个目录 React   $ mkdir React
+
 2.进入目录 $ cd React 
+
 3.初始化目录 $ cnpm init  (一路默认)
+
 4.将React的package.json内的依赖拷贝到React下的package,json文件下.
 ```
 {
@@ -53,7 +57,10 @@ $ npm -v   5.5.1
 }
 ```
 5.安装相关的依赖包 $ cnpm install
+
 6.将文件src/ index.html package-lock-json postcss.config.js webpack.config.js拷贝到React目录下
+
 7.确定package.json下的 "main": "index.js", 改为 "main": "root.js"  (root.js为入口文件)
+
 8.在git命令下进入该React目录 执行命令 $webpck
 9.运行React目录下index.html  页面出现 init 说明成功.
